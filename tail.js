@@ -18,5 +18,5 @@ assertEqual(result[0], "Lighthouse");
 assertEqual(result[1], "Labs");          
 
 const words = ["Yo Yo", "Lighthouse", "Labs"];
-tail(words); // Not capturing the return value here
+tail(words); 
 assertEqual(words.length, 3);       
