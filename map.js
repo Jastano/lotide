@@ -8,7 +8,7 @@ const map = function(array, callback) {
 
 const words = ["ground", "control", "to", "major", "tom"];
 const results1 = map(words, (word) => word[0]);
-console.log(results1); // Expected output: [ 'g', 'c', 't', 'm', 't' ]
+console.log(results1);
 const assertArraysEqual = function(arr1, arr2) {
   if (arr1.length !== arr2.length) {
     console.log(`❌ Assertion Failed: Arrays have different lengths.`);
